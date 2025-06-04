@@ -1,12 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import {Toaster} from 'react-hot-toast'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+
 
 function App() {
   
   return (
-    <>
-      <p className='bg-sky-500 cursor-pointer'>Welcome</p>
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+    </div>
   )
 }
 
