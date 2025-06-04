@@ -1,6 +1,7 @@
 import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { CategorySection } from '../components/CategorySection'
+import { FeaturedInstitutions } from '../components/FeaturedInstitution'
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <CategorySection/>
+      <FeaturedInstitutions/>
     </div>
   )
 }
