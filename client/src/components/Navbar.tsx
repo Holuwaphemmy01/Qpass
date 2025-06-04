@@ -23,7 +23,7 @@ export const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <CalendarCheck className="h-8 w-8 text-blue-500" />
-          <span className="ml-2 text-xl font-bold">Qpass</span>
+          <span className="ml-2 text-xl font-bold font-lora">Qpass</span>
         </div>
         
         {/* Desktop Navigation */}
