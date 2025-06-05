@@ -75,33 +75,33 @@ export const institutions: Institution[] = [
 //     location: 'Austin, TX',
 //     availabilityNextWeek: 18,
 //   }
-// ];
+];
 
-// export const testimonials: Testimonial[] = [
-//   {
-//     id: '1',
-//     name: 'Sarah Johnson',
-//     role: 'Marketing Executive',
-//     avatar: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-//     content: 'The booking process was incredibly smooth. I managed to schedule an appointment with a top consultant in less than 2 minutes!',
-//     institution: 'Elite Business Consulting'
-//   },
-//   {
-//     id: '2',
-//     name: 'Michael Rodriguez',
-//     role: 'Software Developer',
-//     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-//     content: 'I love how easy it is to reschedule appointments. The reminder notifications are also very helpful.',
-//     institution: 'Wellness Medical Center'
-//   },
-//   {
-//     id: '3',
-//     name: 'Jennifer Lee',
-//     role: 'Teacher',
-//     avatar: 'https://images.pexels.com/photos/774095/pexels-photo-774095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-//     content: 'As someone who schedules multiple appointments for my family, this platform has been a lifesaver. Everything in one place!',
-//     institution: 'Northside Learning Center'
-//   }
+export const testimonials: Testimonial[] = [
+  {
+    id: '1',
+    name: 'Sarah Johnson',
+    role: 'Marketing Executive',
+    avatar: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+    content: 'The booking process was incredibly smooth. I managed to schedule an appointment with a top consultant in less than 2 minutes!',
+    institution: 'Elite Business Consulting'
+  },
+  {
+    id: '2',
+    name: 'Michael Rodriguez',
+    role: 'Software Developer',
+    avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+    content: 'I love how easy it is to reschedule appointments. The reminder notifications are also very helpful.',
+    institution: 'Wellness Medical Center'
+  },
+  {
+    id: '3',
+    name: 'Jennifer Lee',
+    role: 'Teacher',
+    avatar: 'https://images.pexels.com/photos/774095/pexels-photo-774095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+    content: 'As someone who schedules multiple appointments for my family, this platform has been a lifesaver. Everything in one place!',
+    institution: 'Northside Learning Center'
+  }
 ];
 
 export const getIconComponent = (iconName: string) => {
