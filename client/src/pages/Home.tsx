@@ -4,6 +4,7 @@ import { CategorySection } from '../components/CategorySection'
 import { FeaturedInstitutions } from '../components/FeaturedInstitution'
 import { HowItWorks } from '../components/HowItWorks'
 import { BookingProcess } from '../components/BookingProcess'
+import { FeatureSection } from '../components/FeatureSectiont'
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
       <FeaturedInstitutions/>
       <HowItWorks/>
       <BookingProcess/>
+      <FeatureSection/>
+
     </div>
   )
 }
