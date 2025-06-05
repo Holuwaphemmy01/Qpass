@@ -1,5 +1,6 @@
 import type { Institution, Testimonial, Category } from './types';
 
+
 import { CalendarDays, Stethoscope, Briefcase, Scissors, GraduationCap, HelpingHand, Dumbbell, BarChart } from 'lucide-react';
 
 export const categories: Category[] = [
@@ -18,89 +19,89 @@ export const institutions: Institution[] = [
     id: '1',
     name: 'Wellness Medical Center',
     category: 'Medical',
-    image: 'https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+    // image: 'https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
     rating: 4.8,
     reviewCount: 423,
-    location: 'San Francisco, CA',
+    location: 'Yaba, Lagos',
     availabilityNextWeek: 12,
   },
-  {
-    id: '2',
-    name: 'Elite Business Consulting',
-    category: 'Business',
-    image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    rating: 4.6,
-    reviewCount: 187,
-    location: 'New York, NY',
-    availabilityNextWeek: 8,
-  },
-  {
-    id: '3',
-    name: 'Serene Spa & Beauty',
-    category: 'Beauty',
-    image: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    rating: 4.9,
-    reviewCount: 512,
-    location: 'Los Angeles, CA',
-    availabilityNextWeek: 15,
-  },
-  {
-    id: '4',
-    name: 'Northside Learning Center',
-    category: 'Education',
-    image: 'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    rating: 4.7,
-    reviewCount: 328,
-    location: 'Chicago, IL',
-    availabilityNextWeek: 22,
-  },
-  {
-    id: '5',
-    name: 'Financial Advisors Group',
-    category: 'Financial',
-    image: 'https://images.pexels.com/photos/7681731/pexels-photo-7681731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    rating: 4.5,
-    reviewCount: 156,
-    location: 'Boston, MA',
-    availabilityNextWeek: 9,
-  },
-  {
-    id: '6',
-    name: 'FitLife Gym & Training',
-    category: 'Fitness',
-    image: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    rating: 4.7,
-    reviewCount: 289,
-    location: 'Austin, TX',
-    availabilityNextWeek: 18,
-  }
-];
+//   {
+//     id: '2',
+//     name: 'Elite Business Consulting',
+//     category: 'Business',
+//     image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     rating: 4.6,
+//     reviewCount: 187,
+//     location: 'New York, NY',
+//     availabilityNextWeek: 8,
+//   },
+//   {
+//     id: '3',
+//     name: 'Serene Spa & Beauty',
+//     category: 'Beauty',
+//     image: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     rating: 4.9,
+//     reviewCount: 512,
+//     location: 'Los Angeles, CA',
+//     availabilityNextWeek: 15,
+//   },
+//   {
+//     id: '4',
+//     name: 'Northside Learning Center',
+//     category: 'Education',
+//     image: 'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     rating: 4.7,
+//     reviewCount: 328,
+//     location: 'Chicago, IL',
+//     availabilityNextWeek: 22,
+//   },
+//   {
+//     id: '5',
+//     name: 'Financial Advisors Group',
+//     category: 'Financial',
+//     image: 'https://images.pexels.com/photos/7681731/pexels-photo-7681731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     rating: 4.5,
+//     reviewCount: 156,
+//     location: 'Boston, MA',
+//     availabilityNextWeek: 9,
+//   },
+//   {
+//     id: '6',
+//     name: 'FitLife Gym & Training',
+//     category: 'Fitness',
+//     image: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     rating: 4.7,
+//     reviewCount: 289,
+//     location: 'Austin, TX',
+//     availabilityNextWeek: 18,
+//   }
+// ];
 
-export const testimonials: Testimonial[] = [
-  {
-    id: '1',
-    name: 'Sarah Johnson',
-    role: 'Marketing Executive',
-    avatar: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    content: 'The booking process was incredibly smooth. I managed to schedule an appointment with a top consultant in less than 2 minutes!',
-    institution: 'Elite Business Consulting'
-  },
-  {
-    id: '2',
-    name: 'Michael Rodriguez',
-    role: 'Software Developer',
-    avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    content: 'I love how easy it is to reschedule appointments. The reminder notifications are also very helpful.',
-    institution: 'Wellness Medical Center'
-  },
-  {
-    id: '3',
-    name: 'Jennifer Lee',
-    role: 'Teacher',
-    avatar: 'https://images.pexels.com/photos/774095/pexels-photo-774095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    content: 'As someone who schedules multiple appointments for my family, this platform has been a lifesaver. Everything in one place!',
-    institution: 'Northside Learning Center'
-  }
+// export const testimonials: Testimonial[] = [
+//   {
+//     id: '1',
+//     name: 'Sarah Johnson',
+//     role: 'Marketing Executive',
+//     avatar: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     content: 'The booking process was incredibly smooth. I managed to schedule an appointment with a top consultant in less than 2 minutes!',
+//     institution: 'Elite Business Consulting'
+//   },
+//   {
+//     id: '2',
+//     name: 'Michael Rodriguez',
+//     role: 'Software Developer',
+//     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     content: 'I love how easy it is to reschedule appointments. The reminder notifications are also very helpful.',
+//     institution: 'Wellness Medical Center'
+//   },
+//   {
+//     id: '3',
+//     name: 'Jennifer Lee',
+//     role: 'Teacher',
+//     avatar: 'https://images.pexels.com/photos/774095/pexels-photo-774095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+//     content: 'As someone who schedules multiple appointments for my family, this platform has been a lifesaver. Everything in one place!',
+//     institution: 'Northside Learning Center'
+//   }
 ];
 
 export const getIconComponent = (iconName: string) => {

@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import  { institutions } from '../utils/data';
 import type { Institution } from '../utils/types';
 import { ChevronLeft, ChevronRight, Star, MapPin, Calendar } from 'lucide-react';
+import  Hospital  from '../assets/hospital.jpeg';
 // import { useBooking } from '../../context/BookingContext';
 
 export const FeaturedInstitutions: React.FC = () => {
@@ -68,7 +69,7 @@ export const FeaturedInstitutions: React.FC = () => {
             >
               <div className="h-48 overflow-hidden relative">
                 <img 
-                  src={institution.image} 
+                  src={Hospital} 
                   alt={institution.name}
                   className="w-full h-full object-cover"
                 />

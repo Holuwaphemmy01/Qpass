@@ -2,7 +2,7 @@ export type Institution = {
   id: string;
   name: string;
   category: string;
-  image: string;
+//   image: string;
   rating: number;
   reviewCount: number;
   location: string;
