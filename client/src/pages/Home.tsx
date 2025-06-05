@@ -7,6 +7,7 @@ import { BookingProcess } from '../components/BookingProcess'
 import { FeatureSection } from '../components/FeatureSectiont'
 import { Stats } from '../components/Stats'
 import { Testimonials } from '../components/Testimonials'
+import { CallToAction } from '../components/CallToAction'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <FeatureSection/>
       <Stats/>
       <Testimonials/>
+      <CallToAction/>
 
     </div>
   )
