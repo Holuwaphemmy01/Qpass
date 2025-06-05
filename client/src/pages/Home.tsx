@@ -5,6 +5,7 @@ import { FeaturedInstitutions } from '../components/FeaturedInstitution'
 import { HowItWorks } from '../components/HowItWorks'
 import { BookingProcess } from '../components/BookingProcess'
 import { FeatureSection } from '../components/FeatureSectiont'
+import { Stats } from '../components/Stats'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <HowItWorks/>
       <BookingProcess/>
       <FeatureSection/>
+      <Stats/>
 
     </div>
   )
