@@ -8,6 +8,7 @@ import { FeatureSection } from '../components/FeatureSectiont'
 import { Stats } from '../components/Stats'
 import { Testimonials } from '../components/Testimonials'
 import { CallToAction } from '../components/CallToAction'
+import { Footer } from '../components/Footer'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Stats/>
       <Testimonials/>
       <CallToAction/>
+      <Footer/>
 
     </div>
   )
