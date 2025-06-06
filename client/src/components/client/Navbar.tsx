@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, ListChecks, Bell, User, CalendarCheck } from 'lucide-react';
+import { Menu, X, ListChecks, Bell, User, CalendarCheck, LogOut } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,6 +22,9 @@ const Navbar = () => {
           <a href="#" className="flex items-center text-gray-700 hover:text-blue-500 transition-colors">
             <User className="h-5 w-5 mr-1" /> Profile
           </a>
+          <a href="#" className="flex items-center text-gray-700 hover:text-blue-500 transition-colors">
+            <LogOut className="h-5 w-5 mr-1" /> Logout
+          </a>
         </nav>
         {/* Mobile Menu Button */}
         <button
@@ -43,6 +46,9 @@ const Navbar = () => {
             </a>
             <a href="#" className="flex items-center py-2 text-gray-700 hover:text-blue-500">
               <User className="h-5 w-5 mr-1" /> Profile
+            </a>
+            <a href="#" className="flex items-center py-2 text-gray-700 hover:text-blue-500">
+              <LogOut className="h-5 w-5 mr-1" /> Logout
             </a>
           </div>
         </div>
