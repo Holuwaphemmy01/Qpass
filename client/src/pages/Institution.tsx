@@ -1,6 +1,4 @@
-import React from 'react'
 import { InstitutionDashboard } from '../components/institution/InstitutionDashboard'
-import { Layout } from '../components/institution/Layout'
 
 const Institution = () => {
   return (
@@ -9,5 +7,4 @@ const Institution = () => {
     </>
   )
 }
-
-export default Institution
+export default Institution;
