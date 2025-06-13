@@ -1,7 +1,7 @@
 import mongoose, { Schema, Document } from 'mongoose';
 import { ObjectId } from 'mongodb';
 
-interface Customer extends Document {
+export interface Customer extends Document {
   _id: ObjectId;
   name: string;
   email: string;          
@@ -18,4 +18,4 @@ const CustomerSchema: Schema = new Schema({
   updatedAt: { type: Date, default: Date.now }
 });
 
-export default mongoose.model<Customer>('Customer', CustomerSchema);
+export const InstitutionModel =  mongoose.model<Customer>('Customer', CustomerSchema);

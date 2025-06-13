@@ -1,21 +1,20 @@
 import mongoose, { Schema, Document } from 'mongoose';
-import { ObjectId } from 'mongodb';
 
-interface Customer extends Document {
-  _id: ObjectId;
+export interface Customer extends Document {
   name: string;
-  email: string;          
-  civicDID: string;      
+  email: string;
+  civicDID: string;
   createdAt: Date;
   updatedAt: Date;
 }
 
-const CustomerSchema: Schema = new Schema({
-  name: { type: String, required: true },
-  email: { type: String, required: true },
-  civicDID: { type: String, required: true },
-  createdAt: { type: Date, default: Date.now },
-  updatedAt: { type: Date, default: Date.now }
-});
+const CustomerSchema: Schema<Customer> = new Schema(
+  {
+    name: { type: String, required: true },
+    email: { type: String, required: true },
+    civicDID: { type: String, required: true }
+  },
+  { timestamps: true } 
+);
 
-export default mongoose.model<Customer>('Customer', CustomerSchema);
+export const CustomerModel = mongoose.model<Customer>('Customer', CustomerSchema);
