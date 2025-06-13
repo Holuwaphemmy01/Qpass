@@ -1,19 +1,25 @@
 import express from 'express';
 import dotenv from 'dotenv'
 import connectDB from './config/db'
-import TokenController from './customer/controller/TokenController';
+import cors from 'cors';
+import customerRouter from './route/CustomerRoute';
 
 dotenv.config();
 const app = express();
 app.use(express.json());
 
+
+app.use(cors())
 connectDB() ;
 app.get('/', (req, res)=>{
     res.send("Backend Working")
 })
 
-const tokenController = new TokenController();
-app.use('/api', tokenController.router);
+
+app.use('/api/customer', customerRouter);
+
+
+
 
 
 const PORT = process.env.PORT || 5000;
