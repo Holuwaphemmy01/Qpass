@@ -16,7 +16,7 @@ export default class RegisterController {
   }
 
   private routes() {
-    this.router.post('/customerRegister', this.handleRegister);
+    this.router.post('/', this.handleRegister);
   }
 
   private handleRegister = async (req: Request, res: Response): Promise<void> => {
