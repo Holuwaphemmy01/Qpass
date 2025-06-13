@@ -9,8 +9,8 @@ export default class RegisterController {
   private registerService: Register;
 
   constructor() {
-    this.router = Router();
     this.registerService = new Register(); 
+    this.router = Router();
     this.handleRegister = this.handleRegister.bind(this);
     this.routes();
   }
