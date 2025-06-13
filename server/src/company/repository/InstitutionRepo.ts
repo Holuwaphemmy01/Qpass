@@ -1,5 +1,5 @@
-import { InstitutionModel } from '../data/model/Institution';
-import type { Institution } from '../data/model/Institution'; // Remove or fix this line if 'Institution' type does not exist
+import { InstitutionModel } from '../model/Institution';
+import type { Institution } from '../model/Institution'; // Remove or fix this line if 'Institution' type does not exist
 import mongoose from 'mongoose';
 
 export class InstitutionRepository {
